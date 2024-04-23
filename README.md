@@ -17,6 +17,8 @@ Here's a basic overview of how the Apriori algorithm works:
 
 5. Confidence: The confidence of a rule is a measure of the likelihood that the rule holds. It is defined as the support of the combined itemset (A ∪ B) divided by the support of the antecedent (A).
 
+6. Lift: Confidence/Support A lift value greater than 1 indicate that association between two items is stronger than expected.
+
 The Apriori algorithm uses a level-wise search strategy to discover frequent itemsets. It starts by finding individual items with support greater than the minimum support threshold and then iteratively extends the itemsets to include more items, stopping when no further extensions meet the minimum support criterion.
 
 Here's a simplified step-by-step representation of the Apriori algorithm:
